@@ -27,6 +27,8 @@
     <title>React App</title>
   </head>
   <body>
+    <script type="text/javascript" src="./service-worker.js"></script>
+    <script>
     (function() {
       if("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./service-worker.js")
