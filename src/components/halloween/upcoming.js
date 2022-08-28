@@ -6,15 +6,16 @@ import { differenceInDays, format } from 'date-fns';
 /// What should be the tiles for Halloween? Kick off of the festivities?
 
 let today = format(new Date(), "MM-dd-yyyy")
-let halloween = new Date( 2022, 9, 31)
-console.log (today, halloween)
 
-const result = differenceInDays(
-new Date(halloween),
+let hocusPocus = format(new Date( 2022, 8, 30), "MM-dd-yyyy")
+console.log (today, hocusPocus)
+
+const daysUntilHP = differenceInDays(
+new Date(hocusPocus),
 new Date(today)
 )
 
-console.log(result)
+
 
 // var day1 = new Date(now);
 // var day2 = new Date("10/31/2022");
@@ -31,7 +32,12 @@ function Upcoming() {
 
   <div className="col-md">
     <div className="border m-3">
-      <h2>On Upcomg</h2>
+      <h2>On Upcoming</h2>
+      <ul>
+        <li className='fw-bold'>Hocus Pocus 2: Disney+ Premier {hocusPocus} in {daysUntilHP}</li>
+        <br></br>
+        <br></br>
+      </ul>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, ipsa animi molestiae fuga nemo quae asperiores aspernatur rem accusantium? Totam, repellendus? Ipsum repudiandae eaque vitae rem harum, ipsam nesciunt neque?</p>
     </div>
     </div>
