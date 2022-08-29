@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f0aa08ebdada53029ec3",
+    "revision": "1076db3d82f75d1b6cae",
     "url": "/project-spooky/static/css/main.da117b38.chunk.css"
   },
   {
-    "revision": "f0aa08ebdada53029ec3",
-    "url": "/project-spooky/static/js/main.f0aa08eb.chunk.js"
+    "revision": "1076db3d82f75d1b6cae",
+    "url": "/project-spooky/static/js/main.1076db3d.chunk.js"
   },
   {
     "revision": "4bb05d8fed1e4d6e8559",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/project-spooky/static/media/sleepy-hollow.21ccafe4.jpg"
   },
   {
-    "revision": "c5f5cbe74b099df62909817d12cc60a4",
+    "revision": "6713f9ed7806599ffa700e469911526f",
     "url": "/project-spooky/index.html"
   }
 ];
