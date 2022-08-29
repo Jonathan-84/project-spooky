@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/project-spooky/precache-manifest.5f07b36713b66b0ec81ccef5e006bfc2.js"
+  "/project-spooky/precache-manifest.32ad8a3337411e5ea8ff2581e5cc60ff.js"
 );
 
 workbox.clientsClaim();
